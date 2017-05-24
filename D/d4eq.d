@@ -153,14 +153,14 @@ import std.random;
 
   x0=[0.8,0.9,0.8,0.9];
 
-  t1=.0;
-  t=4.0;
+  t1=50.;
+  t=80.;
   for(i=0;i<n;++i)  x[i]=x0[i];
 
   for(i=0;i<n;++i)
   {  for(j=0;j<m;j++)  u[i][j]=0.; }
 
-  soleq(n,m,x,u,50.,80.);
+  soleq(n,m,x,u,t1, t);
   resultates(n,m, t1, t, u);
 }
 
