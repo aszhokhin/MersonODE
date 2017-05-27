@@ -76,12 +76,12 @@ f.Close()
 }
 
  func merson(t *float64,q *float64,y []float64,n int,a *float64,h *float64,o *float64,j *int,l *int, dtu func(float64, []float64, []float64) int) int {
-    var i,k,n2,n3,n4,n31,n41,kn,is,kn2,kn3,kn4 int
+    var i,k,n2,n3,n4,kn,is,kn2,kn3,kn4 int
     var c,f,p,s,z  float64
     var d[500]float64
     r:= 1e-13
     s=.01
-    *l= 1; n4= n*4; n3=n*3; n2= n*2; n41=n4+1; n31=n3+1
+    *l= 1; n4= n*4; n3=n*3; n2= n*2
     for k=0;k<n;k++ {d[k+n4]=y[k];  z= *t;  s= *h; is= 0}
     ok := true
 
